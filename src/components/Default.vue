@@ -1,29 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Assan 3</title>    
-        <!-- Plugins CSS -->
-        <link href="/static/css/plugins/plugins.css" rel="stylesheet">
-        <!-- REVOLUTION STYLE SHEETS -->
-        <link rel="stylesheet" type="text/css" href="/static/revolution/css/settings.css">
-        <!-- REVOLUTION LAYERS STYLES -->
-        <link rel="stylesheet" type="text/css" href="/static/revolution/css/layers.css">
-        <!-- REVOLUTION NAVIGATION STYLES -->
-        <link rel="stylesheet" type="text/css" href="/static/revolution/css/navigation.css">
-        <!-- load css for cubeportfolio -->
-        <link rel="stylesheet" type="text/css" href="/static/cubeportfolio/css/cubeportfolio.min.css">     
-        <link href="/static/css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-
+<template>
+    <div>
+       
         <div id="preloader">
             <div id="preloader-inner"></div>
         </div><!--/preloader-->
+
 
         <!-- Pushy Menu -->
         <aside class="pushy pushy-right">
@@ -67,7 +48,7 @@
                         <div class="float-right">
                             <a href="#" class="btn btn-primary">Checkout</a>
                         </div>
-                        <h4  class="text-white">
+                        <h4 class="text-white">
                             <small>Subtotal - </small> $49.99
                         </h4>
                     </li><!--/cart item-->
@@ -91,10 +72,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img class='logo logo-dark' src="/static/images/logo.png" alt="">
-                    <img class='logo logo-light hidden-md-down' src="/static/images/logo-light.png" alt="">
+                    <img class="logo logo-dark" src="/static/images/logo.png" alt="">
+                    <img class="logo logo-light hidden-md-down" src="/static/images/logo-light.png" alt="">
                 </a>
-                <div  id="navbarNavDropdown" class="navbar-collapse collapse">
+                <div id="navbarNavDropdown" class="navbar-collapse collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown active">
                             <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home</a>
@@ -324,7 +305,7 @@
                                     </ul>
                                 </li>
                                 <li class=" dropdown-submenu dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">Slider & Heros</a>
+                                    <a tabindex="-1" href="#" class="dropdown-item">Slider &amp; Heros</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="hero-particle.html" class="dropdown-item">Hero Particle</a></li>
                                         <li><a href="hero-parallax.html" class="dropdown-item">Hero Parallax</a></li>
@@ -371,7 +352,7 @@
                                                     <li><a href="shortcode-promo-box.html"><i class="ti-tag"></i> Promo Boxes</a></li>
                                                     <li><a href="shortcode-lightbox.html"><i class="ti-plus"></i> Lightbox</a></li>
                                                     <li><a href="shortcode-testimonials.html"><i class="ti-comments"></i> Testimonials</a></li>
-                                                    <li><a href="shortcode-counter.html"><i class="ti-calendar"></i> Counter & Countdowns</a></li>
+                                                    <li><a href="shortcode-counter.html"><i class="ti-calendar"></i> Counter &amp; Countdowns</a></li>
                                                     <li><a href="shortcode-icons.html"><i class="ti-flag"></i> icons</a></li>
                                                 </ul>
                                             </div>
@@ -421,11 +402,11 @@
             </div>
         </nav>
 
-        <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery" style="margin: 0px auto; background-color: transparent; padding: 0px; overflow: visible; height: 600px;">
             <!-- START REVOLUTION SLIDER 5.4.1 auto mode -->
-            <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
-                <ul>    
-                    <!-- SLIDE  -->
+            <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive" style="margin-top: 0px; margin-bottom: 0px; height: 600px;" data-version="5.4.1" data-slideactive="rs-3045">
+                <ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 1351px; height: 100%; max-height: none; left: 0px;">   
+                      <!-- SLIDE  -->
                     <li data-index="rs-3045" data-transition="parallaxtoleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="/static/images/bg1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
@@ -607,7 +588,7 @@
         <div class="container pt90">
 
             <div class="row pb60">
-                <div class="col-lg-4 mb30 wow zoomInUp" data-wow-delay="100ms" data-wow-duration=".4s">
+                <div class="col-lg-4 mb30 wow zoomInUp" data-wow-delay="100ms" data-wow-duration=".4s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 100ms; animation-name: zoomInUp;">
                     <div class="icon-box icon-box-center">
                         <i class="icon-hover-1 bg-primary icon-mobile icon-hover-default"></i>
                         <h4>Fully Responsive</h4>
@@ -616,7 +597,7 @@
                         </p>
                     </div>
                 </div><!--/col-->
-                <div class="col-lg-4 mb30 wow zoomInDown" data-wow-delay="200ms" data-wow-duration=".6s">
+                <div class="col-lg-4 mb30 wow zoomInDown" data-wow-delay="200ms" data-wow-duration=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 200ms; animation-name: zoomInDown;">
                     <div class="icon-box icon-box-center">
                         <i class="icon-hover-1 bg-primary icon-profile-male icon-hover-default"></i>
                         <h4>Trusted Author</h4>
@@ -625,7 +606,7 @@
                         </p>
                     </div>
                 </div><!--/col-->
-                <div class="col-lg-4 mb30 wow zoomInRight" data-wow-delay="300ms" data-wow-duration=".8s">
+                <div class="col-lg-4 mb30 wow zoomInRight" data-wow-delay="300ms" data-wow-duration=".8s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 300ms; animation-name: zoomInRight;">
                     <div class="icon-box icon-box-center">
                         <i class="icon-hover-1 bg-primary icon-refresh icon-hover-default"></i>
                         <h4>Reusable Elements</h4>
@@ -662,8 +643,8 @@
                             </div>
                         </div>-->
 
-            <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">
-                <div class="cbp-item web-design graphic">
+            <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready" style="height: 674px;"><div class="cbp-wrapper-outer"><div class="cbp-wrapper">
+                <div class="cbp-item web-design graphic" style="width: 337px; left: 0px; top: 0px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/sm1.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/sm1.jpg" alt="">
@@ -676,8 +657,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="cbp-item print motion">
+                </div></div>
+                <div class="cbp-item print motion" style="width: 337px; left: 337px; top: 0px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/sm2.jpg" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/sm2.jpg" alt="">
@@ -690,8 +671,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="cbp-item print motion">
+                </div></div>
+                <div class="cbp-item print motion" style="width: 337px; left: 674px; top: 0px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/lgv1.jpg" class="cbp-caption cbp-lightbox" data-title="WhereTO App<br>by Tiberiu Neamu">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/lgv1.jpg" alt="">
@@ -704,8 +685,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="cbp-item motion graphic">
+                </div></div>
+                <div class="cbp-item motion graphic" style="width: 674px; left: 0px; top: 337px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/lgh1.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/lgh1.jpg" alt="">
@@ -718,8 +699,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="cbp-item web-design print">
+                </div></div>
+                <div class="cbp-item web-design print" style="width: 337px; left: 1011px; top: 0px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/sm3.jpg" class="cbp-caption cbp-lightbox" data-title="iDevices<br>by Tiberiu Neamu">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/sm3.jpg" alt="">
@@ -732,8 +713,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="cbp-item print motion">
+                </div></div>
+                <div class="cbp-item print motion" style="width: 337px; left: 1011px; top: 337px;"><div class="cbp-item-wrapper">
                     <a href="/static/images/masonry/sm4.jpg" class="cbp-caption cbp-lightbox" data-title="Remind~Me Widget<br>by Tiberiu Neamu">
                         <div class="cbp-caption-defaultWrap">
                             <img src="/static/images/masonry/sm4.jpg" alt="">
@@ -746,11 +727,11 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div></div>
 
-            </div>
+            </div></div></div>
         </div><!--portfolio-->
-        <div class="bg-parallax parallax-overlay" data-jarallax='{"speed": 0.2}' style='background-image: url("/static/images/bg6.jpg")'>
+        <div class="bg-parallax parallax-overlay" data-jarallax="{'speed': 0.2}" style="background-image: none; z-index: 0; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url('/static/images/bg6.jpg')">
             <div class="container pt60 pb60">
                 <div class="row">
                     <div class="col-lg-8">
@@ -765,7 +746,7 @@
                     </div>
                 </div>
             </div>
-        </div><!--cta-->
+        <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url('http://bootstraplovers.com/assan-kit-3.8/bootstrap4/website-templates/classic-template/html/images/bg6.jpg'); position: fixed; top: 0px; left: 0px; width: 1351px; height: 703.646px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -32.3229px; visibility: visible; transform: translate3d(0px, 66.6px, 0px);"></div></div></div><!--cta-->
         <div class="pt90 pb50 container">
             <div class="title-heading1 mb40">
                 <h3>core features of assan</h3>
@@ -841,7 +822,7 @@
                 </div><!--/col-->
             </div>
         </div><!--Features-->
-        <div class="bg-parallax parallax-overlay" data-jarallax='{"speed": 0.2}' style='background-image: url("/static/images/bg5.jpg")'>
+        <div class="bg-parallax parallax-overlay" data-jarallax="{'speed': 0.2}" style="background-image: none; z-index: 0; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url('/static/images/bg5.jpg')">
             <div class="container pt90 pb60">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb30">
@@ -851,16 +832,16 @@
                         </p>
                     </div>
                     <div class="col-lg-3 mb30 text-center">
-                        <input type="text" class="progress-circle" data-width="50%" data-thickness=".05" data-bgColor="transparent" value="85" data-skin="tron" data-fgColor="#fff" data-readOnly="true">
+                        <div style="display: inline; height: 127.5px; width: 127.5px;"><canvas width="127" height="127.5"></canvas><input type="text" class="progress-circle" data-width="50%" data-thickness=".05" data-bgcolor="transparent" value="85" data-skin="tron" data-fgcolor="#fff" data-readonly="true" readonly="readonly" style="width: 67px; height: 42px; position: absolute; vertical-align: middle; margin-top: 42px; margin-left: -97px; border: 0px; background: none; font: bold 25px Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div>
                         <h4 class="pt30 text-white">Creative Startup</h4>
                     </div>
                     <div class="col-lg-3 mb30 mb30 text-center">
-                        <input type="text" class="progress-circle" data-width="50%" data-thickness=".05" data-bgColor="transparent" value="75" data-skin="tron" data-fgColor="#fff" data-readOnly="true">
+                        <div style="display: inline; height: 127.5px; width: 127.5px;"><canvas width="127" height="127.5"></canvas><input type="text" class="progress-circle" data-width="50%" data-thickness=".05" data-bgcolor="transparent" value="75" data-skin="tron" data-fgcolor="#fff" data-readonly="true" readonly="readonly" style="width: 67px; height: 42px; position: absolute; vertical-align: middle; margin-top: 42px; margin-left: -97px; border: 0px; background: none; font: bold 25px Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div>
                         <h4 class="pt30 text-white">One Click Solutions</h4>
                     </div>
                 </div>
             </div>
-        </div><!--/.Analysis-->
+        <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url('http://bootstraplovers.com/assan-kit-3.8/bootstrap4/website-templates/classic-template/html/images/bg5.jpg'); position: fixed; top: 0px; left: 0px; width: 1351px; height: 703.646px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -32.3229px; visibility: visible; transform: translate3d(0px, 93.2px, 0px);"></div></div></div><!--/.Analysis-->
         <div class="container pt90 pb60">
             <div class="row align-items-center">
                 <div class="col-lg-5 mb30">
@@ -920,13 +901,13 @@
             </div>
         </div><!--/.Strategy Planning-->
 
-        <div class='bg-dark'>
+        <div class="bg-dark">
               <div class="pt90 container">
             <div class="row align-items-center">
                 <div class="col-lg-8 text-center col-lg-10 mr-auto ml-auto">
-                    <h2 class='text-white'>Lets get started your project</h2>
+                    <h2 class="text-white">Lets get started your project</h2>
                     <p>
-                    <p class='lead text-white-gray'>
+                    </p><p class="lead text-white-gray">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <a href="#" class="btn btn-lg btn-rounded btn-primary">Buy Now</a><br>
@@ -938,24 +919,12 @@
         <div class="bg-primary pt90 pb90">
             <div class="container">
                 <!-- Carousel -->
-                <div class="carousel-testimonial owl-carousel owl-theme carousel-dark">
+                <div class="carousel-testimonial owl-carousel owl-theme carousel-dark owl-loaded owl-drag">
 
-                    <div class="item">
-                        <div class=" testimonial testimonial-dark">
-                            <div class="row align-items-center">
-                                <div class="col-lg-3 ml-md-5">
-                                    <img src="/static/images/customer-1.jpg" alt="" class="img-fluid circle">
-                                </div>
-                                <div class="col-lg-7">
-                                    <p class="lead">
-                                        " This is a great theme! I love it and recommend it to anyone wanting to purchase it. "
-                                    </p>
-                                    <h5>John Doe - <span>Assan Customer</span></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--item-->
-                    <div class="item">
+                    <!--item-->
+                    <!--item-->
+                    <!--item-->
+                <div class="owl-stage-outer owl-height" style="height: 128px;"><div class="owl-stage" style="transform: translate3d(-2250px, 0px, 0px); transition: all 0s ease 0s; width: 7875px;"><div class="owl-item cloned" style="width: 1110px; margin-right: 15px;"><div class="item">
                         <div class=" testimonial testimonial-dark">
                             <div class="row align-items-center">
                                 <div class="col-lg-3 ml-md-5">
@@ -969,8 +938,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!--item-->
-                    <div class="item">
+                    </div></div><div class="owl-item cloned" style="width: 1110px; margin-right: 15px;"><div class="item">
                         <div class=" testimonial testimonial-dark">
                             <div class="row align-items-center">
                                 <div class="col-lg-3 ml-md-5">
@@ -985,8 +953,78 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!--item-->
-                </div> <!-- /Carousel -->
+                    </div></div><div class="owl-item active" style="width: 1110px; margin-right: 15px;"><div class="item">
+                        <div class=" testimonial testimonial-dark">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ml-md-5">
+                                    <img src="/static/images/customer-1.jpg" alt="" class="img-fluid circle">
+                                </div>
+                                <div class="col-lg-7">
+                                    <p class="lead">
+                                        " This is a great theme! I love it and recommend it to anyone wanting to purchase it. "
+                                    </p>
+                                    <h5>John Doe - <span>Assan Customer</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 1110px; margin-right: 15px;"><div class="item">
+                        <div class=" testimonial testimonial-dark">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ml-md-5">
+                                    <img src="/static/images/customer-2.jpg" alt="" class="img-fluid circle">
+                                </div>
+                                <div class="col-lg-7">
+                                    <p class="lead">
+                                        " Compared to others this was a very easy to use and adapt template. It didn't break as easy with minor changes. Thanks "
+                                    </p>
+                                    <h5>John Doe - <span>Assan Customer</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 1110px; margin-right: 15px;"><div class="item">
+                        <div class=" testimonial testimonial-dark">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ml-md-5">
+                                    <img src="/static/images/customer-3.jpg" alt="" class="img-fluid circle">
+                                </div>
+                                <div class="col-lg-7">
+                                    <p class="lead">
+                                        " Hello,
+                                        your theme gets better and better on every version. Gratulation to this wonderful theme and please keep on working this way (good once)!! "
+                                    </p>
+                                    <h5>John Doe - <span>Assan Customer</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 1110px; margin-right: 15px;"><div class="item">
+                        <div class=" testimonial testimonial-dark">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ml-md-5">
+                                    <img src="/static/images/customer-1.jpg" alt="" class="img-fluid circle">
+                                </div>
+                                <div class="col-lg-7">
+                                    <p class="lead">
+                                        " This is a great theme! I love it and recommend it to anyone wanting to purchase it. "
+                                    </p>
+                                    <h5>John Doe - <span>Assan Customer</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 1110px; margin-right: 15px;"><div class="item">
+                        <div class=" testimonial testimonial-dark">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ml-md-5">
+                                    <img src="/static/images/customer-2.jpg" alt="" class="img-fluid circle">
+                                </div>
+                                <div class="col-lg-7">
+                                    <p class="lead">
+                                        " Compared to others this was a very easy to use and adapt template. It didn't break as easy with minor changes. Thanks "
+                                    </p>
+                                    <h5>John Doe - <span>Assan Customer</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="ti-angle-left"></i></div><div class="owl-next"><i class="ti-angle-right"></i></div></div><div class="owl-dots disabled"></div></div> <!-- /Carousel -->
             </div>
         </div><!--/.testimonials--> 
         <div class=" pt90 pb60">
@@ -995,7 +1033,7 @@
                     <h3>Latest News</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="entry-card">
                             <a href="#" class="entry-thumb">
                                 <img src="/static/images/entry1.jpg" alt="" class="img-fluid">
@@ -1021,7 +1059,7 @@
                             </div><!--/entry content-->
                         </div>
                     </div><!--/.col-->
-                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="entry-card">
                             <a href="#" class="entry-thumb">
                                 <img src="/static/images/entry2.jpg" alt="" class="img-fluid">
@@ -1048,7 +1086,7 @@
                         </div>
                     </div><!--/.col-->
 
-                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="col-lg-4 mb30 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="entry-card">
                             <a href="#" class="entry-thumb">
                                 <img src="/static/images/entry3.jpg" alt="" class="img-fluid">
@@ -1101,40 +1139,70 @@
         <div class="bg-white">
             <div class="container pt50 pb30">
                 <!-- Carousel -->
-                <div class="carousel-client owl-carousel owl-theme">
-                    <div class="item text-center">
-
-                        <img src="/static/images/cl-1.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="item text-center">
-
-                        <img src="/static/images/cl-2.png" alt="">
-                    </div>
-                    <div class="item text-center">
-
-                        <img src="/static/images/cl-3.png" alt="">
-                    </div>
-                    <div class="item text-center">
+                <div class="carousel-client owl-carousel owl-theme owl-loaded owl-drag">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1125px, 0px, 0px); transition: all 0s ease 0s; width: 4050px;"><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
 
                         <img src="/static/images/cl-4.png" alt="">
-                    </div>
-                    <div class="item text-center">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
 
                         <img src="/static/images/cl-5.png" alt="">
-                    </div>
-                    <div class="item text-center">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
 
                         <img src="/static/images/cl-1.png" alt="">
-                    </div>
-                    <div class="item text-center">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
 
                         <img src="/static/images/cl-2.png" alt="">
-                    </div>
-                    <div class="item text-center">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
 
                         <img src="/static/images/cl-3.png" alt="">
-                    </div>
-                </div> <!-- /Carousel -->
+                    </div></div><div class="owl-item active" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-1.png" alt="" class="img-fluid">
+                    </div></div><div class="owl-item active" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-2.png" alt="">
+                    </div></div><div class="owl-item active" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-3.png" alt="">
+                    </div></div><div class="owl-item active" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-4.png" alt="">
+                    </div></div><div class="owl-item active" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-5.png" alt="">
+                    </div></div><div class="owl-item" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-1.png" alt="">
+                    </div></div><div class="owl-item" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-2.png" alt="">
+                    </div></div><div class="owl-item" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-3.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-1.png" alt="" class="img-fluid">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-2.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-3.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-4.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 210px; margin-right: 15px;"><div class="item text-center">
+
+                        <img src="/static/images/cl-5.png" alt="">
+                    </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div> <!-- /Carousel -->
             </div><!--/.clients-->
         </div>
         <footer class="footer footer-standard pt50 pb20">
@@ -1172,12 +1240,12 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    Term & conditions
+                                    Term &amp; conditions
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Privacy & policy
+                                    Privacy &amp; policy
                                 </a>
                             </li>
                         </ul>
@@ -1243,7 +1311,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <span>&copy; Copyright 2018. All Right Reserved</span>
+                        <span>© Copyright 2018. All Right Reserved</span>
                     </div>
                 </div>
             </div>
@@ -1251,152 +1319,6 @@
         <!--back to top-->
         <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script type="text/javascript" src="/static/js/plugins/plugins.js"></script> 
-        <script type="text/javascript" src="/static/js/assan.custom.js"></script> 
-        <!-- load cubeportfolio -->
-        <script type="text/javascript" src="/static/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <!-- REVOLUTION JS FILES -->
-        <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script>
-            /**Hero  script**/
-            var tpj = jQuery;
-
-            var revapi1078;
-            tpj(document).ready(function () {
-                if (tpj("#rev_slider_1078_1").revolution == undefined) {
-                    revslider_showDoubleJqueryError("#rev_slider_1078_1");
-                } else {
-                    revapi1078 = tpj("#rev_slider_1078_1").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "/static/revolution/js/",
-                        sliderLayout: "auto",
-                        dottedOverlay: "none",
-                        delay: 8000,
-                        navigation: {
-                            arrows: {
-                                enable: true,
-                                style: 'uranus',
-                                tmp: '',
-                                rtl: false,
-                                hide_onleave: false,
-                                hide_onmobile: true,
-                                hide_under: 600,
-                                hide_over: 9999,
-                                hide_delay: 200,
-                                hide_delay_mobile: 1200,
-                                left: {
-                                    container: 'slider',
-                                    h_align: 'left',
-                                    v_align: 'center',
-                                    h_offset: 0,
-                                    v_offset: 0
-                                },
-                                right: {
-                                    container: 'slider',
-                                    h_align: 'right',
-                                    v_align: 'center',
-                                    h_offset: 0,
-                                    v_offset: 0
-                                }
-                            }
-                        },
-                        viewPort: {
-                            enable: true,
-                            outof: "pause",
-                            visible_area: "80%",
-                            presize: false
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1140, 992, 700, 465],
-                        gridheight: [600, 600, 500, 480],
-                        lazyType: "none",
-                        parallax: {
-                            type: "mouse",
-                            origo: "slidercenter",
-                            speed: 2000,
-                            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55]
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "off",
-                        stopAfterLoops: -1,
-                        stopAtSlide: -1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false
-                        }
-                    });
-                }
-            }); /*ready*/
-            //cube portfolio init
-            (function ($, window, document, undefined) {
-                'use strict';
-
-                // init cubeportfolio
-                $('#js-grid-mosaic-flat').cubeportfolio({
-                    filters: '#js-filters-mosaic-flat',
-                    layoutMode: 'mosaic',
-                    sortToPreventGaps: true,
-                    mediaQueries: [{
-                            width: 1500,
-                            cols: 6
-                        }, {
-                            width: 1100,
-                            cols: 4
-                        }, {
-                            width: 800,
-                            cols: 3
-                        }, {
-                            width: 480,
-                            cols: 2,
-                            options: {
-                                caption: '',
-                                gapHorizontal: 15,
-                                gapVertical: 15
-                            }
-                        }],
-                    defaultFilter: '*',
-                    animationType: 'fadeOutTop',
-                    gapHorizontal: 0,
-                    gapVertical: 0,
-                    gridAdjustment: 'responsive',
-                    caption: 'fadeIn',
-                    displayType: 'fadeIn',
-                    displayTypeSpeed: 100,
-                    // lightbox
-                    lightboxDelegate: '.cbp-lightbox',
-                    lightboxGallery: true,
-                    lightboxTitleSrc: 'data-title',
-                    lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
-                    plugins: {
-                        loadMore: {
-                            selector: '#js-loadMore-mosaic-flat',
-                            action: 'click',
-                            loadItems: 3
-                        }
-                    }
-                });
-            })(jQuery, window, document);
-        </script> 
-    </body>
-</html>
+        
+    </div>
+</template>
