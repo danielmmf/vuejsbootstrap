@@ -1,0 +1,87 @@
+<html lang="en">
+    <head>
+   
+        <title>Assan Restaurant</title>    
+        <!-- Plugins CSS -->
+        <link href="/static/css/plugins/plugins.css" rel="stylesheet">
+        <!--slider revolution-->
+        <link rel="stylesheet" type="text/css" href="/static/revolution/css/settings.css"> 
+        <link rel="stylesheet" type="text/css" href="/static/revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="/static/revolution/css/navigation.css">
+        <link href="/static/css/style-restaurant.css" rel="stylesheet">
+        <script src="/static/jquery.min.js"></script> 
+    </head>
+
+    <body data-spy="scroll" data-offset="71" data-target="#navbarRestaurant" >
+    	<noscript>
+      This is your fallback content in case JavaScript fails to load.
+    </noscript>
+    <div id="app"></div>
+    <!-- Todo: only include in production -->
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+
+
+        <!--back to top  -->
+        <a href="#" class="back-to-top" id="back-to-top"><i class="ti-angle-up"></i></a>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="/static/js/plugins/plugins.js"></script> 
+        <script src="/static/js/restaurant.custom.js"></script>
+
+        <!--revolution slider-->
+        <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="/static/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script>
+            jQuery(document).ready(function () {
+                jQuery("#slider1").revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "../revolution/js/",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        arrows: {enable: true}
+                    },
+                    parallax: {
+                        type: "on",
+                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85],
+                        origo: "enterpoint",
+                        speed: 400,
+                        bgparallax: "on",
+                        disable_onmobile: "off"
+                    },
+                    gridwidth: 1140,
+                    gridheight: 600
+                });
+            });
+        </script>
+        <!--google map-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMwVpUj3-oHHW8N21819BhKttOga2Rj2s"></script>
+        <script src="/static/js/jquery.gmap.min.js"></script> 
+        <script>
+            // Marker Map
+            $(document).ready(function () {
+                map = new GMaps({
+                    scrollwheel: false,
+                    el: '#markermap',
+                    lat: 26.981942,
+                    lng: 75.684486
+
+                });
+                map.addMarker({
+                    lat: 26.981942,
+                    lng: 75.684486,
+                    title: 'Marker with InfoWindow',
+                    infoWindow: {
+                        content: '<h4>Assan Restaurant</h4><p>Classic foods & drinks</p>'
+                    }
+                });
+            });
+        </script> 
+ 
+    </body>
+</html>
