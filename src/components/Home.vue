@@ -64,109 +64,25 @@
                   <!-- MAIN IMAGE -->
                   <img src="/static/images/resto/bg4.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption tp-resizeme slider-title" 
-                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                     data-fontsize="['80','80','80','45']"
-                     data-lineheight="['80','80','80','50']"
-                     data-width="none"
-                     data-height="none"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="500">Assan restaurant</div>
-                  <div class="tp-caption tp-resizeme slider-caption" 
-                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']" 
-                     data-fontsize="['20','20','20','15']"
-                     data-lineheight="['25','25','25','20']"
-                     data-width="none"
-                     data-height="none" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1000">The best food in town at one of the best locations</div>
-                  <div class="tp-caption tp-resizeme slider-button" 
-                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['160','160','140','140']" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1500"><a href="#" class="btn btn-xl btn-dark btn-primary">Book A Table</a></div>
+                  <div class="tp-caption tp-resizeme slider-title"                      data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']"                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"                      data-fontsize="['80','80','80','45']"                     data-lineheight="['80','80','80','50']"                     data-width="none"                     data-height="none"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="500">Assan restaurant</div>
+                  <div class="tp-caption tp-resizeme slider-caption"                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']"                      data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']"                      data-fontsize="['20','20','20','15']"                     data-lineheight="['25','25','25','20']"                     data-width="none"                     data-height="none"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1000">The best food in town at one of the best locations</div>
+                  <div class="tp-caption tp-resizeme slider-button"                       data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']"                      data-y="['middle','middle','middle','middle']" data-voffset="['160','160','140','140']"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1500"><a href="#" class="btn btn-xl btn-dark btn-primary">Book A Table</a></div>
                </li>
                <li data-transition="random">
                   <!-- MAIN IMAGE -->
                   <img src="/static/images/resto/bg2.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption tp-resizeme slider-title" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                     data-fontsize="['80','80','80','45']"
-                     data-lineheight="['80','80','80','50']"
-                     data-width="none"
-                     data-height="none"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="500">Best quality foods</div>
-                  <div class="tp-caption tp-resizeme slider-caption" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']" 
-                     data-fontsize="['20','20','20','15']"
-                     data-lineheight="['25','25','25','20']"
-                     data-width="none"
-                     data-height="none" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1000">The best food in town at one of the best locations</div>
-                  <div class="tp-caption tp-resizeme slider-button" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['160','160','160','120']" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1500"><a href="#" class="btn btn-xl btn-primary">Book A Table</a></div>
+                  <div class="tp-caption tp-resizeme slider-title"                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"                      data-fontsize="['80','80','80','45']"                     data-lineheight="['80','80','80','50']"                     data-width="none"                     data-height="none"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="500">Best quality foods</div>
+                  <div class="tp-caption tp-resizeme slider-caption"  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']"                      data-fontsize="['20','20','20','15']"                     data-lineheight="['25','25','25','20']"                     data-width="none"                     data-height="none"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1000">The best food in town at one of the best locations</div>
+                  <div class="tp-caption tp-resizeme slider-button"                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['160','160','160','120']"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1500"><a href="#" class="btn btn-xl btn-primary">Book A Table</a></div>
                </li>
                <li data-transition="random">
                   <!-- MAIN IMAGE -->
                   <img src="/static/images/resto/bg3.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption tp-resizeme slider-title" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                     data-fontsize="['80','80','80','45']"
-                     data-lineheight="['80','80','80','50']"
-                     data-width="none"
-                     data-height="none"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="500">#Top chefs team</div>
-                  <div class="tp-caption tp-resizeme slider-caption" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']" 
-                     data-fontsize="['20','20','20','15']"
-                     data-lineheight="['25','25','25','20']"
-                     data-width="none"
-                     data-height="none" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1000">The best food in town at one of the best locations</div>
-                  <div class="tp-caption tp-resizeme slider-button" 
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                     data-y="['middle','middle','middle','middle']" data-voffset="['160','160','160','120']" 
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;" 
-                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-                     data-transform_out="auto:auto;s:300;" 
-                     data-start="1500"><a href="#" class="btn btn-xl btn-primary">Book A Table</a></div>
+                  <div class="tp-caption tp-resizeme slider-title"                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"                      data-fontsize="['80','80','80','45']"                     data-lineheight="['80','80','80','50']"                     data-width="none"                     data-height="none"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="500">#Top chefs team</div>
+                  <div class="tp-caption tp-resizeme slider-caption"                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','70']"                      data-fontsize="['20','20','20','15']"                     data-lineheight="['25','25','25','20']"                     data-width="none"                     data-height="none"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1000">The best food in town at one of the best locations</div>
+                  <div class="tp-caption tp-resizeme slider-button"                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"                      data-y="['middle','middle','middle','middle']" data-voffset="['160','160','160','120']"                      data-whitespace="nowrap"                     data-transform_idle="o:1;"                      data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"                      data-transform_out="auto:auto;s:300;"                      data-start="1500"><a href="#" class="btn btn-xl btn-primary">Book A Table</a></div>
                </li>
             </ul>
          </div>
@@ -263,7 +179,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-5 ml-auto  pt80 pb80">
-                  <h2 class="mb40" id="test-whay">Why choose assan restaurant?</h2>
+                  <h2 class="mb40" id="test-whay">Porque você prefere a Benjamin ?</h2>
                   <div class="clearfix">
                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -1025,60 +941,58 @@
                   <a href='#home' data-scroll class='h6'>
                   <img src='/static/images/logo.png' alt='' class="mb30">
                   </a>
-                  <p>
-                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  </p>
-               </div>
+                  <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
                <div class='col-lg-4 mb30'>
                   <h4 class="mb30">Opening Time</h4>
                   <ul class='list-unstyled opening-time'>
                      <li class='clearfix'>
                         <span class='day'>
-                        Monday
+                          Monday
                         </span>
                         <span class='float-right time'>
-                        9:AM - 10PM
-                        </span> 
-                     </li>
+                          9:AM - 10PM
+                        </span>
+                      </li>
                      <li class='clearfix'>
                         <span class='day'>
                         Tuesday
                         </span>
                         <span class='float-right time'>
-                        9:AM - 10PM
-                        </span> 
+                          9:AM - 10PM
+                        </span>
                      </li>
                      <li class='clearfix'>
                         <span class='day'>
                         Wednesday
                         </span>
                         <span class='float-right time'>
-                        9:AM - 10PM
-                        </span> 
+                          9:AM - 10PM
+                      </span>
                      </li>
                      <li class='clearfix'>
                         <span class='day'>
                         Thursday
                         </span>
                         <span class='float-right time'>
-                        9:AM - 10PM
-                        </span> 
+                          9:AM - 10PM
+                        </span>
                      </li>
                      <li class='clearfix'>
                         <span class='day'>
                         Friday
                         </span>
                         <span class='float-right time'>
-                        9:AM - 10PM
-                        </span> 
+                          9:AM - 10PM
+                        </span>
                      </li>
                      <li class='clearfix'>
                         <span class='day'>
                         Saturday - Sunday
                         </span>
                         <span class='float-right time'>
-                        11:AM - 12PM
-                        </span> 
+                          11:AM - 12PM
+                        </span>
                      </li>
                   </ul>
                </div>
@@ -1100,14 +1014,14 @@
                   <a href="#" class="social-icon-sm si-dark si-dark-round si-linkedin">
                   <i class="fa fa-linkedin"></i>
                   <i class="fa fa-linkedin"></i>
-                  </a>  
+                  </a>
                   </span>
                   <div class='pt30'>
                      <span>Support</span>
                      <p class="lead">support@domain.com</p>
                      <span>Phone</span>
                      <p class="lead">1800 394 4933</p>
-                     &copy; Copyright 2017. All Right Reserved. 
+                     &copy; Copyright 2017. All Right Reserved.
                   </div>
                </div>
             </div>
