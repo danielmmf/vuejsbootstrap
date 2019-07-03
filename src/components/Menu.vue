@@ -19,7 +19,7 @@
                 <div  id="navbarNavDropdown" class="navbar-collapse collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown active">
-                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home</a>
+                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" id="test-msg">{{ $t("message.hello") }}</a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li><a href="index.html" class="dropdown-item">Home 1 - Slider</a></li>
                                 <li><a href="index-02.html" class="dropdown-item">Home 2 - Particle</a></li>
