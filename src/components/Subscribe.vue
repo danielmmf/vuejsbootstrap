@@ -2,7 +2,7 @@
 	<div class="bg-faded pt90 pb90">
             <div class="container">
                 <div class="title-heading1 mb50">
-                    <h3>{{ $t("message.hello") }}</h3>
+                    <h3>{{ $t("presentation_text")  }}</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 mr-auto ml-auto">

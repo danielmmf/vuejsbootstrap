@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Menu from '@/components/Menu'
+import Menu from '@/components/Ecom/Benjamin/Menu'
 
 import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
@@ -16,15 +16,15 @@ const i18n = new VueI18n({
 })
 
 
-describe('Menu', () => {
+describe('Menu Benjamin', () => {
 
-  it('sets the correct default data', () => {
+  it('Deve Carregar os items corretos no menu da Benjamin', () => {
     const Constructor = Vue.extend(Menu)
     const vm = new Constructor({i18n}).$mount()
     const defaultData = Menu.data()
     expect(defaultData.message).to.equal('hello!')
     expect(vm.$el.querySelector('#test-msg').textContent)
-      .to.equal('BEM VINDO A BENJAMIN')
+      .to.equal('Home')
   })
 
 })

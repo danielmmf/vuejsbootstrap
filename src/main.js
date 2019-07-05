@@ -13,19 +13,10 @@ Vue.component('footer-custom', Footer)
 Vue.component('subscribe-custom', Subscribe)
 
 const messages = {
-  en: {
-    message: {
-      hello: 'hello world'
-    }
-  },
-  ja: {
-    message: {
-      hello: 'こんにちは、世界'
-    }
-  }
+  en: require('../static/i18n/en.json'),
+  ja: require('../static/i18n/ja.json')
 }
 
-// Create VueI18n instance with options
 const i18n = new VueI18n({
   locale: 'ja', // set locale
   messages, // set locale messages

@@ -1,0 +1,8 @@
+{
+  "hello": "Porque você prefere a Benjamin ?",
+  "presentation_text" :"Bem vindo a Benjamin",
+  "menu":{
+  	"home":"Inicio",
+  	"cart":"Carrinho"
+  }
+}
