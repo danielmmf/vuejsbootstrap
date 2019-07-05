@@ -767,11 +767,9 @@
 <link href="/static/revolution/css/layers.css" rel="stylesheet">
 <link href="/static/revolution/css/navigation.css" rel="stylesheet">
 <link href="/static/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
+<link href="/static/css/style.css" rel="stylesheet">
 
-        
 
-<!-- load cubeportfolio -->
-<script type="text/javascript" src="/static/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 <!-- REVOLUTION JS FILES -->
 <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript" src="/static/revolution/js/jquery.themepunch.revolution.min.js"></script>
