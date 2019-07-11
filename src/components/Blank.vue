@@ -162,7 +162,7 @@
         </div>
         </span>
 </template>
-<link href="/static/css/style.css" rel="stylesheet">
+
 <script type="text/javascript">
 	
 export default {

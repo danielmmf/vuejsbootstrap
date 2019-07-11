@@ -38,7 +38,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img class='logo logo-light hidden-md-down' src="images/logo-light.png" alt="">
+                        <img class='logo logo-light hidden-md-down' src="/static/images/logo-light.png" alt="">
                     </a>
                     <div  id="navbarRestaurant" class="navbar-collapse collapse">
                         <ul class="navbar-nav  ml-auto">
@@ -64,7 +64,7 @@
                     <li data-transition="random"> 
                         <!-- MAIN IMAGE -->
 
-                        <img src="images/resto/bg4.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                        <img src="/static/images/resto/bg4.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-resizeme slider-title" 
                              data-x="['left','left','left','left']" data-hoffset="['50','50','50','15']" 
@@ -102,7 +102,7 @@
                     <li data-transition="random"> 
                         <!-- MAIN IMAGE -->
 
-                        <img src="images/resto/bg2.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                        <img src="/static/images/resto/bg2.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-resizeme slider-title" 
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
@@ -140,7 +140,7 @@
                     <li data-transition="random"> 
                         <!-- MAIN IMAGE -->
 
-                        <img src="images/resto/bg3.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                        <img src="/static/images/resto/bg3.jpg"  alt=""  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-resizeme slider-title" 
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
@@ -194,7 +194,7 @@
                         <a href="resto-about.html" class="btn btn-dark">Read more</a>
                     </div>
                     <div class="col-lg-6 mb30">
-                        <img src="images/resto/about.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/about.png" alt="" class="img-fluid">
                     </div>              
                 </div>
             </div>
@@ -211,42 +211,42 @@
                     <div class="owl-carousel owl-theme carousel-cards">
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food1.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food1.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$9</span>
                                 <h4>Soft drink</h4>
                             </a>
                         </div><!--item-->
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food2.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food2.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$14</span>
                                 <h4>Red wine</h4>
                             </a>
                         </div><!--item-->
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food3.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food3.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$5</span>
                                 <h4>Pizza Lorem</h4>
                             </a>
                         </div><!--item-->
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food4.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food4.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$9</span>
                                 <h4>Pizza roll</h4>
                             </a>
                         </div><!--item-->
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food5.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food5.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$13</span>
                                 <h4>Pure veg</h4>
                             </a>
                         </div><!--item-->
                         <div class="item">
                             <a class="card-image" href="#">
-                                <img src="images/resto/food6.jpg" alt="" class="img-fluid">
+                                <img src="/static/images/resto/food6.jpg" alt="" class="img-fluid">
                                 <span class="float-right lead">$11</span>
                                 <h4>Chikan Salad</h4>
                             </a>
@@ -258,7 +258,7 @@
         <div class="half-image-content bg-faded">
             <div class="content-img bg-parallax pos-left" data-jarallax='{"speed": 0.2}' style="background:url(images/resto/chef-l1.jpg) no-repeat;">
             </div>
-            <img src="images/resto/chef-l1.jpg" class="visible-lg-down hidden-lg-up img-fluid" alt="">
+            <img src="/static/images/resto/chef-l1.jpg" class="visible-lg-down hidden-lg-up img-fluid" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 ml-auto  pt80 pb80">
@@ -320,42 +320,42 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector1.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector1.png" alt="" class="img-fluid">
                         <h4 class="text-white">Award winners</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector2.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector2.png" alt="" class="img-fluid">
                         <h4 class="text-white">Catering</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector3.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector3.png" alt="" class="img-fluid">
                         <h4 class="text-white">Best chefs</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector4.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector4.png" alt="" class="img-fluid">
                         <h4 class="text-white">Music events</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector5.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector5.png" alt="" class="img-fluid">
                         <h4 class="text-white">Game zone</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
                     <div class="col-md-4 mb30">
-                        <img src="images/resto/vector7.png" alt="" class="img-fluid">
+                        <img src="/static/images/resto/vector7.png" alt="" class="img-fluid">
                         <h4 class="text-white">Event managament</h4>
                         <p>
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -389,7 +389,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food1.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food1.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -409,7 +409,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food2.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food2.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -429,7 +429,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food3.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food3.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -449,7 +449,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food4.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food4.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -469,7 +469,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food5.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food5.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -491,7 +491,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food6.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food6.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -511,7 +511,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food7.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food7.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -531,7 +531,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food8.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food8.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -551,7 +551,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food9.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food9.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -571,7 +571,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food10.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food10.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -597,7 +597,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food10.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food10.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -617,7 +617,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food9.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food9.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -637,7 +637,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food8.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food8.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -657,7 +657,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food7.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food7.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -677,7 +677,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food6.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food6.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -699,7 +699,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food5.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food5.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -719,7 +719,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food4.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food4.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -739,7 +739,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food3.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food3.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -759,7 +759,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food2.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food2.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -779,7 +779,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food1.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food1.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -805,7 +805,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food10.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food10.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -825,7 +825,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food9.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food9.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -845,7 +845,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food8.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food8.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -865,7 +865,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food4.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food4.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -885,7 +885,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food5.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food5.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -907,7 +907,7 @@
                                         <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food6.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food6.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -927,7 +927,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food7.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food7.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -947,7 +947,7 @@
                                            <article class="media">
                                             <!-- Article Image -->
                                             <a class="g-width-100" href="#">
-                                                <img class="img-fluid mr-4" width='80' src="images/resto/food8.jpg" alt="Menu title">
+                                                <img class="img-fluid mr-4" width='80' src="/static/images/resto/food8.jpg" alt="Menu title">
                                             </a>
                                             <!--Image -->
                                             <!--Content -->
@@ -984,7 +984,7 @@
                 <div class="row">
                     <div class="col-lg-4 mb30">
                         <a href="#" class="chefs-card">
-                            <img src="images/resto/chef1.jpg" alt="" class="img-fluid">
+                            <img src="/static/images/resto/chef1.jpg" alt="" class="img-fluid">
                             <div class="chefs-overlay">
                                 <h4>Janelia Adams</h4>
                                 <span>Chef's leader</span>
@@ -993,7 +993,7 @@
                     </div>
                     <div class="col-lg-4 mb30">
                         <a href="#" class="chefs-card">
-                            <img src="images/resto/chef2.jpg" alt="" class="img-fluid">
+                            <img src="/static/images/resto/chef2.jpg" alt="" class="img-fluid">
                             <div class="chefs-overlay">
                                 <h4>Janelia Adams</h4>
                                 <span>Chef's leader</span>
@@ -1002,7 +1002,7 @@
                     </div>
                     <div class="col-lg-4 mb30">
                         <a href="#" class="chefs-card">
-                            <img src="images/resto/chef3.jpg" alt="" class="img-fluid">
+                            <img src="/static/images/resto/chef3.jpg" alt="" class="img-fluid">
                             <div class="chefs-overlay">
                                 <h4>Janelia Adams</h4>
                                 <span>Chef's leader</span>
