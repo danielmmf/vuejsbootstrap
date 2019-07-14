@@ -3,6 +3,7 @@ import App from './App'
 import router from './router'
 import Menu from '@/components/Menu.vue'
 import Footer from '@/components/Footer.vue'
+import Slider from '@/components/Slider.vue'
 import Subscribe from '@/components/Subscribe.vue'
 import Core from '@/components/Products/Land.vue'
 import VueI18n from 'vue-i18n'
@@ -11,6 +12,7 @@ Vue.use(VueI18n)
 Vue.config.productionTip = false
 Vue.component('menu-custom', Menu)
 Vue.component('footer-custom', Footer)
+Vue.component('slider-custom', Slider)
 Vue.component('subscribe-custom', Subscribe)
 Vue.component('core', Core)
 
