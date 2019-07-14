@@ -12,7 +12,7 @@ export default new Router({
     {
       path: '/',
       name: 'Default',
-      component: Restaurant
+      component: Default
     },
     {
       path: '/blank',

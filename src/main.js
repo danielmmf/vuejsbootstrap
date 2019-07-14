@@ -4,6 +4,7 @@ import router from './router'
 import Menu from '@/components/Menu.vue'
 import Footer from '@/components/Footer.vue'
 import Subscribe from '@/components/Subscribe.vue'
+import Core from '@/components/Products/Apc.vue'
 import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
@@ -11,6 +12,7 @@ Vue.config.productionTip = false
 Vue.component('menu-custom', Menu)
 Vue.component('footer-custom', Footer)
 Vue.component('subscribe-custom', Subscribe)
+Vue.component('core', Core)
 
 const messages = {
   en: require('../static/i18n/en.json'),
