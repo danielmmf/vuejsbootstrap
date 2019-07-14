@@ -4,7 +4,7 @@ import router from './router'
 import Menu from '@/components/Menu.vue'
 import Footer from '@/components/Footer.vue'
 import Subscribe from '@/components/Subscribe.vue'
-import Core from '@/components/Products/Apc.vue'
+import Core from '@/components/Products/Land.vue'
 import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
