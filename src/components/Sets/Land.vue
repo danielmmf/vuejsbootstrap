@@ -1,18 +1,18 @@
 <template>
     <span>
-        <apc>
+        <land>
         
-       </apc>
+       </land>
     </span>
 </template>
 
 <script>
-import Apc from '../Sets/Apc.vue'
+import Land from '../Land.vue'
 
 export default {
-  extends: Apc,
+  extends: Land,
   components: { 
-    Apc
+    Land
   }
 }
 </script>
