@@ -1,8 +1,14 @@
 {
   "hello": "Porque você prefere a Benjamin ?",
   "presentation_text" :"BEM VINDO A BENJAMIN",
+  "read_more" :"Saiba Mais",
   "menu":{
   	"home":"Inicio",
   	"cart":"Carrinho"
+  },
+  "about":{
+  	"title":"Sobre Nos",
+  	"content_a":"In volutpat vehicula iaculis. Nullam dapibus In volutpat vehicula iaculis. Nullam dapibus",
+  	"content_b":" dapibus   In volutpat vehicula iaculis. Nullam dapibus</p><br> In volutpat vehicula iaculis. Nullam dapibus   In volutpat vehicula iaculis. Nullam dapibus</p><br>"
   }
 }

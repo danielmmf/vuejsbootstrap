@@ -1,8 +1,6 @@
 <template>
     <span>
-        <apc>
-        
-       </apc>
+        <apc></apc>
     </span>
 </template>
 
