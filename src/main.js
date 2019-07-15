@@ -5,7 +5,7 @@ import Menu from '@/components/Menu.vue'
 import Footer from '@/components/Footer.vue'
 import Slider from '@/components/Slider.vue'
 import Subscribe from '@/components/Subscribe.vue'
-import Core from '@/components/Products/Land.vue'
+import Core from '@/components/Products/Loja.vue'
 import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
