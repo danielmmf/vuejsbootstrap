@@ -1,7 +1,7 @@
 <template>
     <span>
         <preloader></preloader>
-        <header></header>
+        <common-header></common-header>
         <slider></slider>
         <about placeholder="testando"></about>
         <products></products>
@@ -18,7 +18,7 @@
 
 <script>
 import Preloader from '../Business/Common/Preloader.vue'
-import Header from '../Business/Common/Header.vue'
+import CommonHeader from '../Business/Common/Header.vue'
 import About from '../Business/Common/AboutWhite.vue'
 import Slider from '../Business/Slider/Revolution.vue'
 import Products from '../Business/Ecom/Products.vue'
@@ -36,7 +36,7 @@ import CommonFooter from '../Business/Common/Footer.vue'
 export default {
   components: { 
     Preloader,
-    Header,
+    CommonHeader,
     Slider,
     About,
     Products,
